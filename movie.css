@@ -1,0 +1,61 @@
+#footer {
+    float: right;
+}
+#main {
+    margin: auto 10%;
+    border: 2px solid #7D8080;
+    border-radius: 10px;
+}
+
+#main > p {
+    background-color: #9ABB55;
+    clear: both;
+    margin: 0px;
+    text-align: center;
+}
+
+
+#review {
+    width: 70%;    
+}
+
+#review div:first-child {
+    background-color: #254219;
+    color: red;
+    font-size: 50px;
+}
+
+#overview {
+    background-color: #9ABB55;
+    float: right;
+    width: 30%;
+}
+
+#overview dl {
+    padding: 0px 20px;
+}
+
+.review-box {
+    width: 48%;
+    margin-left: 9px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.review-box p:nth-child(2n+1) {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+body {
+    background-image: url(images/background.png);
+}
+
+h1 {
+    text-align: center;
+}
